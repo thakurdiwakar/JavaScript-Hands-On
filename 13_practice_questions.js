@@ -1,4 +1,4 @@
-let 1age=5;
+let 1arge=5;
 
-console.log(1age)
+console.log(1agre);
 
