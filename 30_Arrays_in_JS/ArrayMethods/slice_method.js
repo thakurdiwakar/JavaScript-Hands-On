@@ -1,6 +1,6 @@
-let month=['january','july','march','august']
+let month = ["january", "july", "march", "august"];
 
-month.slice(1)
-
+console.log(month.slice(3));
+console.log(month.slice(2,3));
 
 console.log(month);
