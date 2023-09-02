@@ -5,5 +5,8 @@ console.log(intRand);
 
 let newRand=Math.floor(Math.random() *10)+1;
 
+
+
+
 console.log(newRand);
 
