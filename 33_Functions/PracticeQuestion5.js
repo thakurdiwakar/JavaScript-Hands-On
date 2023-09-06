@@ -7,5 +7,5 @@ function sumOfNumbers(n) {
   return sum;
 }
 
-let result = sumOfNumbers(3);
+let result = sumOfNumbers(4);
 console.log(result);
