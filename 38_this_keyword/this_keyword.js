@@ -11,3 +11,11 @@ let result = {
 
 result.getSum();
 console.log(this); // In a browser, this refers to the window object
+
+
+function getDemo()
+{
+    console.log(this);
+}
+
+getDemo();
