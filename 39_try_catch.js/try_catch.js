@@ -1,5 +1,6 @@
 try {
   console.log(a);
-} catch {
+} catch (err) {
   console.log("Catch Block");
+  console.log(err);
 }
