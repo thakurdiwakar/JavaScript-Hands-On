@@ -15,9 +15,17 @@ document.querySelector("body").append(head1);
 head1.classList.add("blue");
 
 let div1 = document.createElement("div");
+let h1 = document.createElement("h1");
+let p1 = document.createElement("p");
 
-let h1 = "I am in div";
-let p1 = "Me too";
-div1.innerHTML("head1");
+
+h1.innerText = "I am in div";
+p1.innerText = "Me too";
+
+div1.append(h1);
+div1.append(p1);
+
 document.querySelector("body").append(div1);
 div1.classList.add("div");
+
+
