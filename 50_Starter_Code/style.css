@@ -1,4 +1,17 @@
+.red{
+    color: red;
+}
 
+.blue{
+    color: blue;
+}
+
+.div{
+    border: black;
+    background-color: pink;
+}
+
+/* 
 body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -17,4 +30,4 @@ button {
     padding: 10px 20px;
     border: none;
     cursor: pointer;
-}
+} */
