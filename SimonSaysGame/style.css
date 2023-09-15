@@ -1,31 +1,54 @@
 body {
   text-align: center;
+  font-family: Arial, sans-serif;
 }
 
+h1 {
+  color: #333;
+}
+
+h3 {
+  color: #777;
+}
 .btn {
   height: 200px;
   width: 200px;
-
-  border-radius: 20%;
-
-  border: 10px solid black;
-  margin: 3rem;
+  border-radius: 50%;
+  border: 5px solid black;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  cursor: pointer;
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.firstRow,
+.secRow {
   display: flex;
   justify-content: center;
 }
 
 .pink {
   background-color: #ffb6c1;
+  color: black;
 }
 .blue {
-  background-color: #87CEEB;
+  background-color: #87ceeb;
+  color: black;
 }
 .yellow {
-  background-color: #ffffbf ;
+  background-color: #ffffbf;
+  color: black;
 }
 .green {
-  background-color: #3EB489 ;
+  background-color: #3eb489;
+  color: black;
 }
