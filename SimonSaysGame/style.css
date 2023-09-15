@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+}
+
+.btn {
+  height: 200px;
+  width: 200px;
+
+  border-radius: 20%;
+
+  border: 10px solid black;
+  margin: 3rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.pink {
+  background-color: #ffb6c1;
+}
+.blue {
+  background-color: #87CEEB;
+}
+.yellow {
+  background-color: #ffffbf ;
+}
+.green {
+  background-color: #3EB489 ;
+}
