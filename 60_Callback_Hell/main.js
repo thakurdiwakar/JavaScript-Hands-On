@@ -1,8 +1,21 @@
-asyncFunction1(function (result1) {
-    asyncFunction2(result1, function (result2) {
-      asyncFunction3(result2, function (result3) {
-        // More nested callbacks...
+h1=document.querySelector('h1');
+
+function changeColor (color, delay, nextColorChange) {
+  setTimeout(() => {
+    h1.style.color = color;
+    if (nextColorChange) nextColorChange();
+  }, delay);
+};
+
+
+
+
+changeColor("red", 1000, () => {
+  changeColor("blue", 1000, () => {
+    changeColor("green", 1000, () => {
+      changeColor("yellow", 1000, () => {
+        changeColor("black", 1000);
       });
     });
   });
-  
+});
