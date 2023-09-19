@@ -1,3 +1,4 @@
-let url="https://catfact.ninja/fact";
+let url = "https://catfact.ninja/fact";
 
-fetch(url);
+fetch(url)
+  
